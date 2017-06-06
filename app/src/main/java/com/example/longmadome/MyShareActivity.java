@@ -47,6 +47,12 @@ public class MyShareActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         x.view().inject(this);
+
+
+
+
+
+
         url = getIntent().getExtras().getString("url");
 
         ImageLoader.getInstance().displayImage(url, iv);
