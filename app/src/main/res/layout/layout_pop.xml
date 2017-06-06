@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RadioButton
+        android:id="@+id/wx_fiends"
+        style="@style/ActionBarRedioBtnStyle"
+        android:checked="true"
+        android:drawableTop="@drawable/wx"
+        android:text="好友分享"
+        android:textColor="#000" />
+    <RadioButton
+        android:id="@+id/wx_circle_of_friends"
+        style="@style/ActionBarRedioBtnStyle"
+        android:checked="true"
+        android:drawableTop="@drawable/wx"
+        android:text="好友分享"
+        android:textColor="#000" />
+</LinearLayout>
